@@ -6,7 +6,7 @@ He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS)
 
 #### Contact
 
-Email: senli[at]westlake.edu.cn
+Email: linchunbosenli[at]westlake.edu.cn
 
 #### Education
 M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
