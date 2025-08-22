@@ -30,5 +30,5 @@ Email: linchunbo@westlake.edu.cn
 
 Research Group Homepage: [Qiu Lab](https://qiu.lab.westlake.edu.cn/)
 
-I sincerely welcome and look forward to various forms of academic exchange and collaboration. I am particularly enthusiastic about exploring potential interdisciplinary research opportunities across diverse fields such as  biology, mechanics, physics, optics and fluid dynamics.
+I sincerely welcome and look forward to various forms of academic exchange and collaboration. I am particularly enthusiastic about exploring potential interdisciplinary research opportunities across diverse fields such as  AI, biology, mechanics, physics and fluid dynamics.
 
