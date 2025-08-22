@@ -1,5 +1,5 @@
 
-- Outstanding Graduate Award (CUMT), 2025.
+- nihaoOutstanding Graduate Award (CUMT), 2025.
 
 - National Scholarship for Graduate Student, 2024.
 
