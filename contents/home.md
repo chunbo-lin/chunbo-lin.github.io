@@ -2,9 +2,7 @@
 
 He is currently a Ph.D. student in the Department of Electronic and Information Engineering at Westlake University, under the supervision of Prof. Min Qiu.
 
-
-
-
+<br>
 
 #### Education
 **Visiting Student, Department of Electronic and Information Engineering, Westlake University, Jan. 2025 – Aug. 2025**
