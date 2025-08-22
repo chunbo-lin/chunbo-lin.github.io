@@ -1,17 +1,27 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+He is currently a Ph.D. student in the Department of Electronic and Information Engineering at Westlake University, under the supervision of Prof. Min Qiu.
 
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+
+
+#### Education
+**Ph.D. Student, Department of Electronic and Information Engineering, Westlake University, Aug. 2025 – Present**
+ Advisor: Prof. Min Qiu
+
+**Visiting Student, Department of Electronic and Information Engineering, Westlake University, Jan. 2025 – Aug. 2025**
+ Advisor: Prof. Min Qiu
+
+**Exchange Student, Department of Physics, University of California, Berkeley, May 2024 – Jan. 2025**
+ Advisor: Prof. Alexei V. Filippenko
+
+**B.Sc. in Physics (Jianxing Honors Program), School of Physics, Zhejiang University of Technology, Sept. 2021 – May 2024**
+ Advisor: Prof. Tao Zhu
+
+#### Research Interests
+Nano-Optoelectronics, Micro/Nanofabrication, Advanced Lithography Techniques, Fiber-Optic Sensing.
 
 #### Contact
 
-Email: linchunbosenli[at]westlake.edu.cn
+Email: linchunbo[at]westlake.edu.cn
 
-#### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
-
-#### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
-
+I sincerely welcome and look forward to various forms of academic exchange and collaboration. I am particularly enthusiastic about exploring potential interdisciplinary research opportunities across diverse fields such as  biology, mechanics, physics, optics and fluid dynamics.
