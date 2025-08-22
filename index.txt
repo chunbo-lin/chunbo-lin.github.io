@@ -164,20 +164,28 @@
   </footer>
 
   <!-- Lightweight loader to render the two new sections from Markdown -->
-  <script>
-    async function loadMD(mdPath, targetId) {
-      try {
-        const res = await fetch(mdPath);
-        const text = await res.text();
-        document.getElementById(targetId).innerHTML = marked.parse(text);
-      } catch (e) {
-        document.getElementById(targetId).innerHTML = "<em>Content coming soon…</em>";
-        console.error("Failed to load", mdPath, e);
+<script>
+  // Lightweight loader to render the two new sections from Markdown
+  async function loadMD(mdPath, targetId) {
+    try {
+      const res = await fetch(mdPath);
+      const text = await res.text();
+      document.getElementById(targetId).innerHTML = marked.parse(text);
+
+      // 关键：触发 MathJax 重新渲染公式
+      if (window.MathJax && typeof MathJax.typesetPromise === "function") {
+        await MathJax.typesetPromise();
       }
+    } catch (e) {
+      document.getElementById(targetId).innerHTML = "<em>Content coming soon…</em>";
+      console.error("Failed to load", mdPath, e);
     }
-    // Load content for the two new sections
-    loadMD("contents/projects.md", "projects-md");
-    loadMD("contents/funding.md", "funding-md");
-  </script>
+  }
+
+  // Load content for the two new sections
+  loadMD("contents/projects.md", "projects-md");
+  loadMD("contents/funding.md", "funding-md");
+</script>
 </body>
 </html>
+
