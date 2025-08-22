@@ -4,7 +4,7 @@ He is currently a Ph.D. student in the Department of Electronic and Information 
 
 <br>
 
-#### Education
+### Education
 **Visiting Student, Department of Electronic and Information Engineering, Westlake University, Jan. 2025 – Aug. 2025**
 
 Advisor: Prof. Min Qiu
@@ -17,10 +17,14 @@ Advisor: Prof. Alexei V. Filippenko
 
 Advisor: Prof. Tao Zhu
 
-#### Research Interests
+<br>
+
+### Research Interests
 Nano-Optoelectronics, Micro/Nanofabrication, Advanced Lithography Techniques, Fiber-Optic Sensing.
 
-#### Contact
+<br>
+
+### Contact
 
 Email: linchunbo@westlake.edu.cn
 
