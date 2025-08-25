@@ -1,4 +1,4 @@
-#### Published
+#### Undergraduate Publications
 
 - **C. Lin**, T. Zhu, R. Niu, et al. (2025). Constraining the modified friction in gravitational wave propagation with precessing black hole binaries. ***Physical Review D***, 112(2): 024010. [Paper](https://journals.aps.org/prd/abstract/10.1103/s3xh-dt13)
 

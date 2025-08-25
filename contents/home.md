@@ -1,6 +1,6 @@
 
 
-He is currently a Ph.D. student in the Department of Electronic and Information Engineering at Westlake University, under the supervision of Prof. Min Qiu.
+He is currently a first-year direct Ph.D. student in the Department of Electronic and Information Engineering at Westlake University, under the supervision of Prof. Min Qiu.
 
 <br>
 
@@ -13,7 +13,7 @@ Advisor: Prof. Min Qiu
 
 Advisor: Prof. Alexei V. Filippenko
 
-**B.Sc. in Physics (Jianxing Honors Program), School of Physics, Zhejiang University of Technology, Sept. 2021 – May 2024**
+**B.Sc. in Physics (Jianxing Honors Program), School of Physics, Zhejiang University of Technology, Sept. 2021 – June 2025**
 
 Advisor: Prof. Tao Zhu
 
