@@ -7,15 +7,15 @@ He is currently a first-year direct Ph.D. student in the Department of Electroni
 ### Education
 **Visiting Student, Department of Electronic and Information Engineering, Westlake University, Jan. 2025 – Aug. 2025**
 
-Advisor: Prof. Min Qiu
+Supervisor: Prof. Min Qiu
 
 **Exchange Student, Department of Physics, University of California, Berkeley, May 2024 – Jan. 2025**
 
-Advisor: Prof. Alexei V. Filippenko
+Supervisor: Prof. Alexei V. Filippenko
 
 **B.Sc. in Physics (Jianxing Honors Program), School of Physics, Zhejiang University of Technology, Sept. 2021 – June 2025**
 
-Advisor: Prof. Tao Zhu
+Supervisor: Prof. Tao Zhu
 
 <br>
 
