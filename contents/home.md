@@ -5,6 +5,11 @@ He is currently a first-year direct Ph.D. student in the Department of Electroni
 <br>
 
 ### Education
+
+**Ph.D. Student, Department of Electronic and Information Engineering, Westlake University, Aug. 2025 – Present**
+
+Supervisor: Prof. Min Qiu
+
 **Visiting Student, Department of Electronic and Information Engineering, Westlake University, Jan. 2025 – Aug. 2025**
 
 Supervisor: Prof. Min Qiu
