@@ -1,6 +1,6 @@
 #### **Ph.D. Publications**
 
-- **C. Lin**, X. Shang, J. Wang, H. Jiang, M. Qiu. (2025). Ultrafast Spring: A General μs-Resolution Transient Optical Fiber Microforce Metrology. ***Under submission.***
+- **C. Lin**, X. Shang, J. Wang, H. Jiang, M. Qiu. (2025). Ultrafast Spring: A General μs-Resolution Transient Optical Fiber Microforce Metrology. **Light: Science & Applications (Under Review)**
 
 #### Undergraduate Publications
 
