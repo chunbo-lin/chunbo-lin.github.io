@@ -3,3 +3,19 @@ page-top-title: Chunbo LIN
 top-section-bg-text: Micro/Nano Optoelectronics
 home-subtitle: Chunbo LIN&ensp;|&ensp;林春博
 copyright-text: '&copy; Chunbo LIN 2021-2030. All Rights Reserved.'
+site-description: Academic homepage of Chunbo Lin, featuring research, publications, awards, projects, and funding.
+profile-photo-alt: Profile photo of Chunbo Lin
+menu-label: MENU
+nav-home: HOME
+nav-publications: PUBLICATIONS
+nav-awards: AWARDS
+nav-projects: PROJECTS
+nav-funding: FUNDING &amp; FELLOWSHIPS
+publications-label: PUBLICATIONS
+awards-label: AWARDS
+projects-label: PROJECTS
+funding-label: FUNDING &amp; FELLOWSHIPS
+language-toggle-label: 中文
+language-toggle-aria: Switch to Chinese
+github-label: GitHub
+license-label: License

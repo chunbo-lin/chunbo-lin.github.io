@@ -54,7 +54,6 @@
     };
   </script>
   <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
   <!-- Core JS-->
   <script type="text/javascript" src="static/js/scripts.js"></script>
@@ -68,18 +67,19 @@
       <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
               aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        MENU <i class="bi-list"></i>
+        <span id="menu-label">MENU</span> <i class="bi-list"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-          <li class="nav-item"><a class="nav-link me-lg-3" href="#page-top">HOME</a></li>
-          <li class="nav-item"><a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a></li>
-          <li class="nav-item"><a class="nav-link me-lg-3" href="#awards">AWARDS</a></li>
-
-          <!-- NEW: Projects -->
-          <li class="nav-item"><a class="nav-link me-lg-3" href="#projects">PROJECTS</a></li>
-          <!-- NEW: Funding & Fellowships -->
-          <li class="nav-item"><a class="nav-link me-lg-3" href="#funding">FUNDING &amp; FELLOWSHIPS</a></li>
+          <li class="nav-item"><a id="nav-home" class="nav-link me-lg-3" href="#page-top">HOME</a></li>
+          <li class="nav-item"><a id="nav-publications" class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a></li>
+          <li class="nav-item"><a id="nav-awards" class="nav-link me-lg-3" href="#awards">AWARDS</a></li>
+          <li class="nav-item"><a id="nav-projects" class="nav-link me-lg-3" href="#projects">PROJECTS</a></li>
+          <li class="nav-item"><a id="nav-funding" class="nav-link me-lg-3" href="#funding">FUNDING &amp; FELLOWSHIPS</a></li>
+          <li class="nav-item language-switch-item">
+            <button id="language-toggle" class="btn btn-outline-dark btn-sm language-toggle" type="button"
+                    aria-label="切换至中文" aria-pressed="false">中文</button>
+          </li>
         </ul>
       </div>
     </div>
@@ -97,7 +97,7 @@
   <!-- Photo -->
   <div class="container px-5">
     <div id="avatar">
-      <img class="shadow" src="static/assets/img/photo.png" alt="profile photo">
+      <img id="profile-photo" class="shadow" src="static/assets/img/photo.png" alt="Profile photo">
     </div>
   </div>
 
@@ -115,7 +115,7 @@
   <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
     <div class="container px-5">
       <header>
-        <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
+        <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;<span id="publications-label">PUBLICATIONS</span></h2>
       </header>
       <div class="main-body" id="publications-md"></div>
     </div>
@@ -125,27 +125,25 @@
   <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
     <div class="container px-5">
       <header>
-        <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>&nbsp;AWARDS</h2>
+        <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>&nbsp;<span id="awards-label">AWARDS</span></h2>
       </header>
       <div class="main-body" id="awards-md"></div>
     </div>
   </section>
 
-  <!-- NEW: Projects -->
   <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="projects">
     <div class="container px-5">
       <header>
-        <h2 id="projects-subtitle"><i class="bi bi-lightbulb-fill"></i>&nbsp;PROJECTS</h2>
+        <h2 id="projects-subtitle"><i class="bi bi-lightbulb-fill"></i>&nbsp;<span id="projects-label">PROJECTS</span></h2>
       </header>
       <div class="main-body" id="projects-md"></div>
     </div>
   </section>
 
-  <!-- NEW: Funding & Fellowships -->
   <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="funding">
     <div class="container px-5">
       <header>
-        <h2 id="funding-subtitle"><i class="bi bi-cash-coin"></i>&nbsp;FUNDING &amp; FELLOWSHIPS</h2>
+        <h2 id="funding-subtitle"><i class="bi bi-cash-coin"></i>&nbsp;<span id="funding-label">FUNDING &amp; FELLOWSHIPS</span></h2>
       </header>
       <div class="main-body" id="funding-md"></div>
     </div>
@@ -156,28 +154,11 @@
     <div class="container px-5">
       <div class="text-white-50 small">
         <div id="copyright-text" class="mb-2"></div>
-        <a id="github-link" href="https://github.com/senli1073">Github</a>
+        <a id="github-link" href="https://github.com/senli1073"><span id="github-label">GitHub</span></a>
         <span class="mx-1">&middot;</span>
-        <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
+        <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE"><span id="license-label">License</span></a>
       </div>
     </div>
   </footer>
-
-  <!-- Lightweight loader to render the two new sections from Markdown -->
-  <script>
-    async function loadMD(mdPath, targetId) {
-      try {
-        const res = await fetch(mdPath);
-        const text = await res.text();
-        document.getElementById(targetId).innerHTML = marked.parse(text);
-      } catch (e) {
-        document.getElementById(targetId).innerHTML = "<em>Content coming soon…</em>";
-        console.error("Failed to load", mdPath, e);
-      }
-    }
-    // Load content for the two new sections
-    loadMD("contents/projects.md", "projects-md");
-    loadMD("contents/funding.md", "funding-md");
-  </script>
 </body>
 </html>

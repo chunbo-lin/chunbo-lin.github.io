@@ -10,6 +10,24 @@
     z-index: 10000;
 }
 
+.language-switch-item {
+    display: flex;
+    align-items: center;
+}
+
+.language-toggle {
+    min-width: 3.5rem;
+    border-width: 1.5px;
+    border-radius: 999px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.language-toggle:focus-visible {
+    outline: 3px solid rgba(17, 33, 45, 0.25);
+    outline-offset: 2px;
+}
+
 .bg-bottom {
     background-color: var(--h-title-color);
 }
@@ -107,6 +125,9 @@ section .main-body{
     #avatar {
         margin: 0;
     }
-}
 
+    .language-switch-item {
+        padding-top: 0.5rem;
+    }
+}
 
