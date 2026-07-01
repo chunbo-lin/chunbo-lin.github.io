@@ -1,11 +1,13 @@
 const contentDir = 'contents/';
+const contentVersion = '20260701.2';
 const sectionNames = ['home', 'publications', 'awards', 'projects', 'funding'];
 const supportedLanguages = ['en', 'zh'];
 let currentLanguage = 'en';
 let languageRequestId = 0;
 
 async function fetchText(path) {
-    const response = await fetch(path);
+    const separator = path.includes('?') ? '&' : '?';
+    const response = await fetch(`${path}${separator}v=${contentVersion}`);
     if (!response.ok) {
         throw new Error(`Failed to load ${path}: ${response.status}`);
     }
