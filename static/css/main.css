@@ -332,7 +332,7 @@ section .main-body li {
 #awards .main-body li,
 #projects .main-body li,
 #academic-exchange .main-body li {
-    line-height: 2.5;
+    line-height: 1.75;
 }
 
 #research .main-body p,
