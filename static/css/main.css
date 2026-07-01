@@ -224,7 +224,7 @@ body {
     color: #41464b;
     font-size: 1.16rem;
     font-weight: 400;
-    line-height: 2.5;
+    line-height: 1.75;
     text-align: justify;
 }
 
@@ -311,6 +311,10 @@ section .main-body{
 section .main-body p,
 section .main-body li {
     line-height: 1.25;
+}
+
+#home .bio-copy p {
+    line-height: 1.75;
 }
 
 #research .main-body,
@@ -446,7 +450,7 @@ section .main-body li {
     }
 
     .bio-copy {
-        line-height: 2.5;
+        line-height: 1.75;
     }
 
     .education-timeline {
