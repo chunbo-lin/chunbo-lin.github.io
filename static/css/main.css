@@ -285,12 +285,12 @@ body {
 .timeline-item p {
     margin: 0.2rem 0 0;
     color: var(--profile-muted);
-    font-size: 1.16rem;
+    font-size: 0.95rem;
     line-height: 1.25;
 }
 
 .timeline-advisor {
-    font-size: 1.16rem !important;
+    font-size: 0.95rem !important;
 }
 
 section header h2{
