@@ -224,12 +224,12 @@ body {
     color: #41464b;
     font-size: 1.16rem;
     font-weight: 400;
-    line-height: 1.25;
+    line-height: 2.5;
     text-align: justify;
 }
 
 .bio-copy p {
-    margin-bottom: 1.35rem;
+    margin: 0;
 }
 
 .bio-copy h3 {
@@ -311,6 +311,33 @@ section .main-body{
 section .main-body p,
 section .main-body li {
     line-height: 1.25;
+}
+
+#research .main-body,
+#publications .main-body,
+#awards .main-body,
+#projects .main-body,
+#academic-exchange .main-body,
+#research .main-body p,
+#publications .main-body p,
+#awards .main-body p,
+#projects .main-body p,
+#academic-exchange .main-body p,
+#research .main-body li,
+#publications .main-body li,
+#awards .main-body li,
+#projects .main-body li,
+#academic-exchange .main-body li {
+    line-height: 2.5;
+}
+
+#research .main-body p,
+#publications .main-body p,
+#awards .main-body p,
+#projects .main-body p,
+#academic-exchange .main-body p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -419,7 +446,7 @@ section .main-body li {
     }
 
     .bio-copy {
-        line-height: 1.25;
+        line-height: 2.5;
     }
 
     .education-timeline {
