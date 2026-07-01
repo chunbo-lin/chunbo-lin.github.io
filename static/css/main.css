@@ -343,6 +343,15 @@ section .main-body li {
     background: linear-gradient(180deg, #dce2de, #e8ebe7) !important;
 }
 
+#research,
+#publications,
+#awards,
+#projects,
+#academic-exchange {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
 @media screen and (min-width: 992px) {
     .container {
         width: 64%;
