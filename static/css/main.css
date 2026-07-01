@@ -293,6 +293,11 @@ body {
     font-size: 1.16rem !important;
 }
 
+html[lang="zh-CN"] .timeline-item p,
+html[lang="zh-CN"] .timeline-advisor {
+    font-size: 1rem !important;
+}
+
 section header h2{
     margin: 0 0 2.4rem;
     color: var(--h-title-color);
