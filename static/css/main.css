@@ -3,6 +3,9 @@
 
 :root{
     --h-title-color:#11212d;
+    --profile-ink:#2b3035;
+    --profile-muted:#62686e;
+    --profile-rule:rgba(43, 48, 53, 0.24);
 }
 
 .header {
@@ -32,31 +35,206 @@
     background-color: var(--h-title-color);
 }
 
-.top-section {
+.profile-hero {
     position: relative;
-    padding: 10rem 0;
+    margin-top: 74px;
+    padding: 4.75rem 0;
     background-position: center;
     background-size: cover;
-    height: 25rem;
+    min-height: 42rem;
+    overflow: hidden;
 }
 
-.top-section h2 {
-    font-weight: 400;
-}
-
-.top-section .top-section-content {
-    position: relative;
-    z-index: 1;
-}
-
-.top-section:before {
+.profile-hero::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(250, 249, 246, 0.9), rgba(250, 249, 246, 0.8));
+}
+
+.profile-hero-grid {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: minmax(20rem, 0.9fr) minmax(25rem, 1.1fr);
+    align-items: center;
+    gap: clamp(3rem, 6vw, 6.5rem);
+}
+
+.profile-photo-frame {
+    justify-self: center;
+    width: 100%;
+    max-width: 31rem;
+    aspect-ratio: 1 / 1;
+    background: #dce8f3;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1.5rem 3.5rem rgba(17, 33, 45, 0.17);
+    overflow: hidden;
+}
+
+.profile-photo-frame img {
+    display: block;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    object-position: center top;
+}
+
+.profile-summary {
+    color: var(--profile-ink);
+}
+
+.profile-title-block {
+    padding-bottom: 2.2rem;
+    border-bottom: 1px solid var(--profile-rule);
+}
+
+.profile-title-block h1 {
+    margin: 0 0 0.7rem;
+    color: var(--profile-ink);
+    font-family: "Newsreader", "Songti SC", "STSong", Georgia, serif;
+    font-size: clamp(3rem, 5vw, 4.75rem);
+    font-weight: 600;
+    line-height: 1.05;
+    letter-spacing: 0.02em;
+}
+
+.profile-role {
+    margin: 0 0 0.4rem;
+    font-size: clamp(1.25rem, 2vw, 1.65rem);
+    font-weight: 700;
+}
+
+.profile-affiliation {
+    max-width: 42rem;
+    margin: 0;
+    color: var(--profile-muted);
+    font-size: 1.12rem;
+    line-height: 1.7;
+}
+
+.profile-facts {
+    margin: 0;
+}
+
+.profile-fact {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--profile-rule);
+}
+
+.profile-fact dt {
+    margin-bottom: 0.45rem;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+}
+
+.profile-fact dd {
+    margin: 0;
+    color: var(--profile-muted);
+    font-size: clamp(1.08rem, 1.7vw, 1.3rem);
+    line-height: 1.55;
+}
+
+.profile-fact a {
+    color: inherit;
+    text-decoration-color: rgba(98, 104, 110, 0.45);
+    text-underline-offset: 0.2em;
+}
+
+.profile-biography {
+    padding: 4.75rem 0 5.5rem;
+    background: linear-gradient(135deg, #faf9f6, #f5f3ee) !important;
+}
+
+.profile-biography header h2 {
+    margin-bottom: 2.4rem;
+    font-family: "Newsreader", "Songti SC", "STSong", Georgia, serif !important;
+    font-size: clamp(2.35rem, 4vw, 3.25rem);
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+.bio-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(21rem, 0.95fr);
+    gap: clamp(3rem, 6vw, 6rem);
+    align-items: start;
+}
+
+.bio-copy {
+    color: #41464b;
+    font-family: "Newsreader", "Songti SC", "STSong", Georgia, serif;
+    font-size: 1.16rem;
+    font-weight: 400;
+    line-height: 1.95;
+    text-align: justify;
+}
+
+.bio-copy p {
+    margin-bottom: 1.35rem;
+}
+
+.bio-copy h3 {
+    margin: 2rem 0 0.75rem;
+    color: var(--profile-ink);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.education-timeline {
+    position: relative;
+    padding-left: 3.25rem;
+    border-left: 1px solid rgba(43, 48, 53, 0.4);
+}
+
+.timeline-item {
+    position: relative;
+    padding: 0 0 2.6rem;
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    top: 0.25rem;
+    left: -3.67rem;
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+    background: #cfd1d1;
+    box-shadow: 0 0 0 0.42rem #f7f5f0;
+}
+
+.timeline-date {
+    display: block;
+    margin-bottom: 0.65rem;
+    color: var(--profile-ink);
+    font-family: "Newsreader", Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.timeline-item h3 {
+    margin: 0 0 0.45rem;
+    color: var(--profile-ink);
+    font-size: 1.18rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.timeline-item p {
+    margin: 0.2rem 0 0;
+    color: var(--profile-muted);
+    font-size: 1.03rem;
+    line-height: 1.65;
+}
+
+.timeline-advisor {
+    font-size: 0.95rem !important;
 }
 
 section header h2{
@@ -83,47 +261,28 @@ section .main-body{
 
 
 
-.on-top {
-    position: relative;
-    z-index: 10000;
-}
-
-.top-bg {
-    background-position: center;
-    background-size: fill;
-    width: 100%;
-    height: 100%;
-}
-
-.top-bg::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-}
-
-
-#avatar {
-    position: relative;
-    height: 0;
-    top:min(-65px,max(-100px,calc(-1*100vw/12)));
-    max-width: 55em;
-    margin: 0 1.5rem 0 0;
-    float: right;
-    z-index: 9000;
-}
-
-#avatar img {
-    height: max(130px,min(200px,calc(100vw/6)));
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-}
-
 @media screen and (max-width: 991px) {
-    #avatar {
-        margin: 0;
+    .profile-hero {
+        padding: 3.5rem 0 4rem;
+    }
+
+    .profile-hero-grid,
+    .bio-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-photo-frame {
+        max-width: 28rem;
+    }
+
+    .profile-summary {
+        max-width: 38rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .education-timeline {
+        margin-left: 0.45rem;
     }
 
     .language-switch-item {
@@ -131,3 +290,40 @@ section .main-body{
     }
 }
 
+@media screen and (max-width: 575px) {
+    .profile-hero-grid,
+    .profile-biography .container {
+        padding-left: 1.35rem !important;
+        padding-right: 1.35rem !important;
+    }
+
+    .profile-hero {
+        margin-top: 66px;
+        padding: 2rem 0 3rem;
+    }
+
+    .profile-hero-grid {
+        gap: 2.5rem;
+    }
+
+    .profile-title-block h1 {
+        font-size: 2.75rem;
+    }
+
+    .profile-biography {
+        padding: 3.5rem 0 4rem;
+    }
+
+    .bio-copy {
+        font-size: 1.05rem;
+        line-height: 1.85;
+    }
+
+    .education-timeline {
+        padding-left: 2.5rem;
+    }
+
+    .timeline-item::before {
+        left: -2.92rem;
+    }
+}

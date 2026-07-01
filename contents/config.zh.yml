@@ -1,7 +1,15 @@
 title: 林春博的个人主页
 page-top-title: 林春博
-top-section-bg-text: 微纳光电子学
-home-subtitle: 林春博&ensp;|&ensp;Chunbo LIN
+profile-name: 林春博
+profile-role: 直博研究生
+profile-affiliation: 西湖大学电子信息工程系
+profile-specialty-label: 研究方向
+profile-specialty: 纳米光电子学 · 微纳加工
+profile-lab-label: 课题组
+profile-lab: '<a href="https://qiu.lab.westlake.edu.cn/">仇旻课题组</a>'
+profile-email-label: 邮箱
+profile-email: '<a href="mailto:linchunbo@westlake.edu.cn">linchunbo@westlake.edu.cn</a>'
+biography-label: 个人简介
 copyright-text: '&copy; 林春博 2021-2030。保留所有权利。'
 site-description: 林春博的学术主页，展示其研究方向、论文发表、获奖经历、研究项目及科研资助。
 profile-photo-alt: 林春博的个人照片
