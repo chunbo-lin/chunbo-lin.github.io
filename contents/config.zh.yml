@@ -11,18 +11,20 @@ profile-email-label: 邮箱
 profile-email: '<a href="mailto:linchunbo@westlake.edu.cn">linchunbo@westlake.edu.cn</a>'
 biography-label: 个人简介
 copyright-text: '&copy; 林春博 2021-2030。保留所有权利。'
-site-description: 林春博的学术主页，展示其研究方向、论文发表、获奖经历、研究项目及科研资助。
+site-description: 林春博的学术主页，展示其个人简介、研究方向、代表论文、奖励荣誉、研究项目及学术交流。
 profile-photo-alt: 林春博的个人照片
 menu-label: 菜单
-nav-home: 首页
-nav-publications: 论文发表
-nav-awards: 获奖经历
+nav-home: 个人简介
+nav-research: 研究方向
+nav-publications: 代表论文
+nav-awards: 奖励荣誉
 nav-projects: 研究项目
-nav-funding: 经费与奖学金
-publications-label: 论文发表
-awards-label: 获奖经历
+nav-academic-exchange: 学术交流
+research-label: 研究方向
+publications-label: 代表论文
+awards-label: 奖励荣誉
 projects-label: 研究项目
-funding-label: 经费与奖学金
+academic-exchange-label: 学术交流
 language-toggle-label: EN
 language-toggle-aria: 切换至英文
 github-label: GitHub

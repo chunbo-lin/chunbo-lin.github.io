@@ -1,6 +1,6 @@
 const contentDir = 'contents/';
-const contentVersion = '20260701.5';
-const sectionNames = ['home', 'publications', 'awards', 'projects', 'funding'];
+const contentVersion = '20260701.6';
+const sectionNames = ['home', 'research', 'publications', 'awards', 'projects', 'academic-exchange'];
 const supportedLanguages = ['en', 'zh'];
 let currentLanguage = 'en';
 let languageRequestId = 0;

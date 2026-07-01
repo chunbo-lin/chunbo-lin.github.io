@@ -2,8 +2,6 @@
   <div class="bio-copy">
     <p>Chunbo Lin is a first-year direct-entry Ph.D. student in the Department of Electronic and Information Engineering at Westlake University, supervised by Prof. Min Qiu. His work centers on light–matter interactions and precision measurement at the micro- and nanoscale.</p>
     <p>Before beginning his doctoral studies, he studied physics in the Jianxing Honors Program at Zhejiang University of Technology. He also worked as an exchange student at the University of California, Berkeley, and later as a visiting student at Westlake University.</p>
-    <h3>Research Interests</h3>
-    <p>Nano-optoelectronics, micro/nanofabrication, advanced lithography techniques, and fiber-optic sensing. He is also interested in interdisciplinary opportunities involving artificial intelligence, biology, mechanics, physics, and fluid dynamics.</p>
   </div>
   <div class="education-timeline" aria-label="Education timeline">
     <article class="timeline-item">

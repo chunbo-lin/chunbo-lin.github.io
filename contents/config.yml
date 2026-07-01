@@ -11,18 +11,20 @@ profile-email-label: Email
 profile-email: '<a href="mailto:linchunbo@westlake.edu.cn">linchunbo@westlake.edu.cn</a>'
 biography-label: PERSONAL PROFILE
 copyright-text: '&copy; Chunbo LIN 2021-2030. All Rights Reserved.'
-site-description: Academic homepage of Chunbo Lin, featuring research, publications, awards, projects, and funding.
+site-description: Academic homepage of Chunbo Lin, featuring research interests, representative publications, honors, projects, and academic exchange.
 profile-photo-alt: Profile photo of Chunbo Lin
 menu-label: MENU
-nav-home: HOME
-nav-publications: PUBLICATIONS
-nav-awards: AWARDS
-nav-projects: PROJECTS
-nav-funding: FUNDING &amp; FELLOWSHIPS
-publications-label: PUBLICATIONS
-awards-label: AWARDS
-projects-label: PROJECTS
-funding-label: FUNDING &amp; FELLOWSHIPS
+nav-home: PERSONAL PROFILE
+nav-research: RESEARCH INTERESTS
+nav-publications: REPRESENTATIVE PUBLICATIONS
+nav-awards: AWARDS &amp; HONORS
+nav-projects: RESEARCH PROJECTS
+nav-academic-exchange: ACADEMIC EXCHANGE
+research-label: RESEARCH INTERESTS
+publications-label: REPRESENTATIVE PUBLICATIONS
+awards-label: AWARDS &amp; HONORS
+projects-label: RESEARCH PROJECTS
+academic-exchange-label: ACADEMIC EXCHANGE
 language-toggle-label: 中文
 language-toggle-aria: Switch to Chinese
 github-label: GitHub

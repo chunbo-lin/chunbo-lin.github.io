@@ -15,7 +15,7 @@
 
   <!-- Core theme CSS (includes Bootstrap)-->
   <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-  <link type="text/css" href="static/css/main.css?v=20260701.5" rel="stylesheet" />
+  <link type="text/css" href="static/css/main.css?v=20260701.6" rel="stylesheet" />
 
   <!-- Bootstrap core JS-->
   <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
@@ -50,7 +50,7 @@
   <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
   <!-- Core JS-->
-  <script type="text/javascript" src="static/js/scripts.js?v=20260701.5"></script>
+  <script type="text/javascript" src="static/js/scripts.js?v=20260701.6"></script>
   <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 </head>
 
@@ -65,11 +65,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto me-4 my-3 my-xxl-0">
-          <li class="nav-item"><a id="nav-home" class="nav-link me-xxl-3" href="#page-top">HOME</a></li>
-          <li class="nav-item"><a id="nav-publications" class="nav-link me-xxl-3" href="#publications">PUBLICATIONS</a></li>
-          <li class="nav-item"><a id="nav-awards" class="nav-link me-xxl-3" href="#awards">AWARDS</a></li>
-          <li class="nav-item"><a id="nav-projects" class="nav-link me-xxl-3" href="#projects">PROJECTS</a></li>
-          <li class="nav-item"><a id="nav-funding" class="nav-link me-xxl-3" href="#funding">FUNDING &amp; FELLOWSHIPS</a></li>
+          <li class="nav-item"><a id="nav-home" class="nav-link me-xxl-3" href="#home">PERSONAL PROFILE</a></li>
+          <li class="nav-item"><a id="nav-research" class="nav-link me-xxl-3" href="#research">RESEARCH INTERESTS</a></li>
+          <li class="nav-item"><a id="nav-publications" class="nav-link me-xxl-3" href="#publications">REPRESENTATIVE PUBLICATIONS</a></li>
+          <li class="nav-item"><a id="nav-awards" class="nav-link me-xxl-3" href="#awards">AWARDS &amp; HONORS</a></li>
+          <li class="nav-item"><a id="nav-projects" class="nav-link me-xxl-3" href="#projects">RESEARCH PROJECTS</a></li>
+          <li class="nav-item"><a id="nav-academic-exchange" class="nav-link me-xxl-3" href="#academic-exchange">ACADEMIC EXCHANGE</a></li>
           <li class="nav-item language-switch-item">
             <button id="language-toggle" class="btn btn-outline-dark btn-sm language-toggle" type="button"
                     aria-label="切换至中文" aria-pressed="false">中文</button>
@@ -83,7 +84,7 @@
   <section class="profile-hero" style="background-image: url('static/assets/img/background.jpeg');" aria-labelledby="profile-name">
     <div class="container px-5 profile-hero-grid">
       <div class="profile-photo-frame">
-        <img id="profile-photo" src="static/assets/img/photo.png?v=20260701.5" alt="Profile photo">
+        <img id="profile-photo" src="static/assets/img/photo.png?v=20260701.6" alt="Profile photo">
       </div>
       <div class="profile-summary">
         <div class="profile-title-block">
@@ -119,11 +120,21 @@
     </div>
   </section>
 
+  <!-- Research Interests -->
+  <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="research">
+    <div class="container px-5">
+      <header>
+        <h2 id="research-subtitle"><span id="research-label">RESEARCH INTERESTS</span></h2>
+      </header>
+      <div class="main-body" id="research-md"></div>
+    </div>
+  </section>
+
   <!-- Publications -->
   <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
     <div class="container px-5">
       <header>
-        <h2 id="publications-subtitle"><span id="publications-label">PUBLICATIONS</span></h2>
+        <h2 id="publications-subtitle"><span id="publications-label">REPRESENTATIVE PUBLICATIONS</span></h2>
       </header>
       <div class="main-body" id="publications-md"></div>
     </div>
@@ -133,7 +144,7 @@
   <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
     <div class="container px-5">
       <header>
-        <h2 id="awards-subtitle"><span id="awards-label">AWARDS</span></h2>
+        <h2 id="awards-subtitle"><span id="awards-label">AWARDS &amp; HONORS</span></h2>
       </header>
       <div class="main-body" id="awards-md"></div>
     </div>
@@ -142,18 +153,18 @@
   <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="projects">
     <div class="container px-5">
       <header>
-        <h2 id="projects-subtitle"><span id="projects-label">PROJECTS</span></h2>
+        <h2 id="projects-subtitle"><span id="projects-label">RESEARCH PROJECTS</span></h2>
       </header>
       <div class="main-body" id="projects-md"></div>
     </div>
   </section>
 
-  <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="funding">
+  <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="academic-exchange">
     <div class="container px-5">
       <header>
-        <h2 id="funding-subtitle"><span id="funding-label">FUNDING &amp; FELLOWSHIPS</span></h2>
+        <h2 id="academic-exchange-subtitle"><span id="academic-exchange-label">ACADEMIC EXCHANGE</span></h2>
       </header>
-      <div class="main-body" id="funding-md"></div>
+      <div class="main-body" id="academic-exchange-md"></div>
     </div>
   </section>
 

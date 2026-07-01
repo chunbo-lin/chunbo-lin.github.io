@@ -1,0 +1,1 @@
+Nano-optoelectronics, micro/nanofabrication, advanced lithography techniques, and fiber-optic sensing. I am also interested in interdisciplinary research opportunities involving artificial intelligence, biology, mechanics, physics, and fluid dynamics.
