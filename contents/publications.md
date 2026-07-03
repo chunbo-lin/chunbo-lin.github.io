@@ -1,5 +1,7 @@
 Ph.D. Stage
 
+5. **C. Lin**, X. Shang†, X. Li, *et al.* (2026). Direct experimental measurement of femto-newton-scale momentum transfer force from electron beams. **(Presubmission)**
+
 4. **C. Lin**, X. Shang, J. Wang, H. Jiang, M. Qiu†. (2025). Ultrafast Spring: A General μs-Resolution Transient Optical Fiber Microforce Metrology. **Light: Science & Applications (Under Review)**
 
 Undergraduate Stage
