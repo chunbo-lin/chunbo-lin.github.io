@@ -26,6 +26,7 @@
       <span class="timeline-date">2021 年 9 月—2025 年 6 月</span>
       <h3>浙江工业大学</h3>
       <p>理学学士（健行荣誉项目）</p>
+      <p class="timeline-advisor">导师：林强 朱涛 教授</p>
     </article>
   </div>
 </div>

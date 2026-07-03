@@ -25,7 +25,7 @@
       <span class="timeline-date">September 2021 — June 2025</span>
       <h3>Zhejiang University of Technology</h3>
       <p>Bachelor of Science (Jianxing Honors Program)</p>
+      <p class="timeline-advisor">Advisor: Professor Qiang Lin, Tao Zhu</p>
     </article>
   </div>
 </div>
-
