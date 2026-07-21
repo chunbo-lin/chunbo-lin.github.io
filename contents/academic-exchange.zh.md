@@ -1,6 +1,5 @@
 12. 1st China-Sweden Workshop on Multidisciplinary Science & Engineering 2026, Hangzhou, China
 
-
 11. 2026 Workshop on Frontier Technologies of Advanced Electron Microscopy, Hangzhou, China
 
 10. 2026 EIE Frontier seminar series, Session I - Advanced Electronics and Sensing Technology Symposium, Hangzhou, China
