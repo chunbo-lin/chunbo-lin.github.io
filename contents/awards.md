@@ -9,3 +9,4 @@ Honors & Scholarships
 1. National Scholarship, selected into the Top 100 Outstanding Students Roster by the Ministry of Education and People's Daily (10,000 RMB), 2024
 1. Zhejiang Provincial Government Scholarship (16,000 RMB), 2022-2023
 1. Zhejiang University of Technology Academic Competition Scholarship (Cumulative 20,000 RMB), 2021-2025
+1. National Scholarship (30,000 RMB), 2026
